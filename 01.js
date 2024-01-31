@@ -11,8 +11,18 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  nuevoArray = new Array();
+  for (let i=0; i < array.length;i++){
+
+   if(!isNaN(array[i])){
+      nuevoArray.push(array[i]);
+  };
+
+  }
+  return nuevoArray;
 
 }
+
 
 // No modifiques nada debajo de esta linea //
 
